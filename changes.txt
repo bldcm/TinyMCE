@@ -1,0 +1,46 @@
+This is a modified version of TinyMCE version 3.5.11.
+
+Copyright (C) 2019, Kofax
+Released under LGPL 2.1 License
+
+------------------------------------
+ORIGINAL INFO TinyMCE VERSION 3.5.11
+------------------------------------
+
+Copyright 2009, Moxiecode Systems AB
+Released under LGPL License.
+ 
+License: http://tinymce.moxiecode.com/license
+Contributing: http://tinymce.moxiecode.com/contributing
+
+Source is available at: https://github.com/tinymce/tinymce/tree/3.5.11/
+
+----------
+CHANGE LOG
+----------
+
+The following modifications have been applied:
+- The table plugin has been modified to change the user interaction with respect to table and table cell configuration.
+- The advanced theme has been modified to:
+  * implement other images in the toolbar of the editor
+  * refer to the Noto Sans font as the preferred font in the css
+  * modify the look and feel of buttons on dialogs
+- A small bugfix has been applied to a regular expression in the wordcount plugin.
+
+The following files have been modified:
+plugins\table\cell.htm
+plugins\table\editor_plugin.js
+plugins\table\editor_plugin_src.js
+plugins\table\merge_cells.htm
+plugins\table\row.htm
+plugins\table\table.htm
+plugins\table\css\table.css
+plugins\wordcount\editor_plugin.js
+plugins\wordcount\editor_plugin_src.js
+themes\advanced\skins\default\dialog.css
+themes\advanced\skins\default\ui.css
+
+The following files have been added:
+plugins\itptextblockeditor\js\table\cell.js
+plugins\itptextblockeditor\js\table\table.js
+themes\advanced\img\icons.png
